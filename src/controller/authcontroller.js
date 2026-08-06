@@ -78,8 +78,7 @@ const loginUser = async (req, res) => {
     }
 
     const user = await userModel.findOne({ $or: [{ username }, { email }] });
-    console.log("User found:", user); // ye line temporarily add karo
-
+    
     if (!user) {
       return res.status(401).json({ message: "invalid credentials" });
     }
