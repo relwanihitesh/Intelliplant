@@ -1,0 +1,30 @@
+export const DEPARTMENTS = [
+  'HR',
+  'Production',
+  'Maintenance',
+  'Quality',
+  'Safety',
+  'IT',
+  'Finance',
+  'Logistics',
+  'Research and Development',
+  'Sales',
+  'Marketing',
+  'Customer Service',
+  'Legal',
+  'Procurement',
+  'Administration',
+  'Training',
+  'Security',
+  'Environmental',
+  'Engineering',
+  'Project Management',
+  'Business Development',
+  'Public Relations',
+]
+
+export const ROLE_LABELS = {
+  admin: 'Administrator',
+  manager: 'Manager',
+  employee: 'Employee',
+}

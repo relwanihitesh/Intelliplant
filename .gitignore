@@ -22,7 +22,11 @@ temp/
 # Coverage and build output
 coverage/
 dist/
+dist-ssr/
 build/
+
+# Local overrides
+*.local
 
 # OS and editor files
 .DS_Store
@@ -30,6 +34,3 @@ Thumbs.db
 .vscode/
 !.vscode/extensions.json
 !.vscode/settings.json
-
-# Local test and tool output
-*.local
