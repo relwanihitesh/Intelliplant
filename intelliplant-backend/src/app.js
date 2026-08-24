@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(helmet());
 app.use(cors({
-    origin: "https://intelliplant-frontend-ar39c837w-hiteshrelwani6-dots-projects.vercel.app",
+    origin: "https://intelliplant-frontend.vercel.app",
     credentials: true
 }));
 
