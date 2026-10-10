@@ -7,7 +7,7 @@ Access is role- and department-restricted (RBAC).
 ## Live Links
 
 - Backend API: https://intelliplant-backend-lacy.onrender.com
-- Frontend: (add your Vercel/Netlify URL here once deployed)
+- Frontend: intelliplant-frontend.vercel.app
 
 ## Project Structure
 
