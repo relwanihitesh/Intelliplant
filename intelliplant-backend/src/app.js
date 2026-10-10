@@ -30,6 +30,10 @@ const limiter = rateLimit({
 app.use(limiter);
 app.use(morgan('dev'));
 
+app.get('/', (req, res) => {
+    res.status(200).json({ status: 'ok', service: 'IntelliPlant API' });
+});
+
 app.use('/api/auth', authRoutes);
 app.use('/api/user', userRoutes);
 app.use('/api/department', departmentRoutes);
